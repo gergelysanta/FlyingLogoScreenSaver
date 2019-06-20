@@ -53,7 +53,7 @@ class LogoLayer: CALayer {
 		scaleAnimation!.duration = animationDuration
 
 		// Set timing to animate slower at the beginning and faster at the end
-		scaleAnimation!.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+		scaleAnimation!.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
 
 		// Don't do reverse animation
 		scaleAnimation!.autoreverses = false
@@ -61,7 +61,7 @@ class LogoLayer: CALayer {
 		// The default behavior of how animations look (their fill mode) is kCAFillModeRemoved
 		// which means that just after the duration of the animation the layer will look as if the animation never happened.
 		// By changing to kCAFillModeForwards we make the layer look as if it remained in the end state of the animation.
-		scaleAnimation!.fillMode = kCAFillModeForwards
+		scaleAnimation!.fillMode = CAMediaTimingFillMode.forwards
 		scaleAnimation!.isRemovedOnCompletion = false
 
 		// Bigger logos are visually closer to camera so we need to animate also the z position
@@ -74,7 +74,7 @@ class LogoLayer: CALayer {
 		zposAnimation!.duration = animationDuration
 
 		// Set timing to animate slower at the beginning and faster at the end
-		zposAnimation!.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+		zposAnimation!.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
 
 		// Don't do reverse animation
 		zposAnimation!.autoreverses = false
@@ -82,7 +82,7 @@ class LogoLayer: CALayer {
 		// The default behavior of how animations look (their fill mode) is kCAFillModeRemoved
 		// which means that just after the duration of the animation the layer will look as if the animation never happened.
 		// By changing to kCAFillModeForwards we make the layer look as if it remained in the end state of the animation.
-		zposAnimation!.fillMode = kCAFillModeForwards
+		zposAnimation!.fillMode = CAMediaTimingFillMode.forwards
 		zposAnimation!.isRemovedOnCompletion = false
 	}
 
@@ -96,7 +96,7 @@ class LogoLayer: CALayer {
 		moveAnimation!.duration = animationDuration
 
 		// Set timing to animate slower at the beginning and faster at the end
-		moveAnimation!.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseIn)
+		moveAnimation!.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
 
 		// Don't do reverse animation
 		moveAnimation!.autoreverses = false
@@ -104,7 +104,7 @@ class LogoLayer: CALayer {
 		// The default behavior of how animations look (their fill mode) is kCAFillModeRemoved
 		// which means that just after the duration of the animation the layer will look as if the animation never happened.
 		// By changing to kCAFillModeForwards we make the layer look as if it remained in the end state of the animation.
-		moveAnimation!.fillMode = kCAFillModeForwards
+		moveAnimation!.fillMode = CAMediaTimingFillMode.forwards
 		moveAnimation!.isRemovedOnCompletion = false
 
 		// Set delegate to self, so 'animationDidStop' of this object will be called when movement ended
@@ -143,7 +143,7 @@ class LogoLayer: CALayer {
 		// The default behavior of how animations look (their fill mode) is kCAFillModeRemoved
 		// which means that just after the duration of the animation the layer will look as if the animation never happened.
 		// By changing to kCAFillModeForwards we make the layer look as if it remained in the end state of the animation.
-		fadeAnimation.fillMode = kCAFillModeForwards
+		fadeAnimation.fillMode = CAMediaTimingFillMode.forwards
 		fadeAnimation.isRemovedOnCompletion = false
 
 		self.add(fadeAnimation, forKey: "FadeOutAnimation")

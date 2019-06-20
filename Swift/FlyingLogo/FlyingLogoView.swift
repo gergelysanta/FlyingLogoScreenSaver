@@ -236,7 +236,7 @@ class FlyingLogoView: ScreenSaverView {
 extension FlyingLogoView: LogoLayerDelegate {
 
 	func logoShouldBeRemoved(_ logo: LogoLayer) {
-		if let logoIndex = logoArray.index(of: logo) {
+		if let logoIndex = logoArray.firstIndex(of: logo) {
 			logoArray.remove(at: logoIndex)
 		}
 		logo.removeFromSuperlayer()

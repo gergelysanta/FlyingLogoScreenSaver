@@ -12,7 +12,6 @@
 		740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AAB20890ACC00B270E0 /* MainMenu.xib */; };
 		743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
 		743B9DB6208D9DE900AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
-		743B9DB8208D9DE900AC9A64 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 743B9DB2208D9DE900AC9A64 /* Info.plist */; };
 		743B9DBA208D9E8000AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
 		743B9DBB208D9E8A00AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
 		74D4B22E22BBF0D400CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B22C22BBF0D400CFDD02 /* SimpleLogo.png */; };
@@ -165,7 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = TriKatz;
 				TargetAttributes = {
 					740C7AA420890ACB00B270E0 = {
@@ -216,7 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				743B9DB8208D9DE900AC9A64 /* Info.plist in Resources */,
 				74D4B23822BBF9B400CFDD02 /* thumbnail@2x.png in Resources */,
 				74D4B22F22BBF0D400CFDD02 /* SimpleLogoFull.png in Resources */,
 				74D4B22E22BBF0D400CFDD02 /* SimpleLogo.png in Resources */,
@@ -316,7 +314,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -369,7 +367,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

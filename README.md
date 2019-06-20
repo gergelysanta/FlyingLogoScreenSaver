@@ -1,4 +1,9 @@
 # FlyingLogo ScreenSaver for macOS
+
+[![Xcode 10](https://img.shields.io/badge/Xcode-10-blue.svg)](https://developer.apple.com/xcode/)
+[![Swift 5](https://img.shields.io/badge/Swift-5-blue.svg)](https://swift.org/)
+[![Platform](https://img.shields.io/badge/platforms-macOS-blue.svg)](https://developer.apple.com/macOS)
+
 ------
 
 This screensaver is based on old Windows95 screensaver, FlyingWindows:
