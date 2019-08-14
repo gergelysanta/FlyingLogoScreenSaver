@@ -16,12 +16,12 @@
 		740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */; };
-		74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
+		74D4B23E22BBFB6800CFDD02 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */; };
 		74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23B22BBFB6800CFDD02 /* thumbnail.png */; };
 		74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */; };
-		74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
-		74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
-		74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
+		74D4B24122BBFB6800CFDD02 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */; };
+		74D4B24222BBFC5200CFDD02 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */; };
+		74D4B24322BBFC5400CFDD02 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,17 +31,17 @@
 		740C7AAC20890ACC00B270E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		740C7AAE20890ACC00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740C7AAF20890ACC00B270E0 /* FlyingLogoTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingLogoTestApp.entitlements; sourceTree = "<group>"; };
-		740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingLogo.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		740C7ABD208CC4CE00B270E0 /* Avast.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avast.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		740C7ABF208CC4CE00B270E0 /* FlyingLogoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyingLogoView.h; sourceTree = "<group>"; };
 		740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingLogoView.m; sourceTree = "<group>"; };
 		740C7AC3208CC4CE00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740C7AC9208CC54A00B270E0 /* LogoLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoLayer.h; sourceTree = "<group>"; };
 		740C7ACA208CC54A00B270E0 /* LogoLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoLayer.m; sourceTree = "<group>"; };
 		740C7AD0208D17DC00B270E0 /* ObjcBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcBridgingHeader.h; sourceTree = "<group>"; };
-		74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogoFull.png; sourceTree = "<group>"; };
+		74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogoFull.png; sourceTree = "<group>"; };
 		74D4B23B22BBFB6800CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
-		74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogo.png; sourceTree = "<group>"; };
+		74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				740C7AA520890ACB00B270E0 /* FlyingLogoTestApp.app */,
-				740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */,
+				740C7ABD208CC4CE00B270E0 /* Avast.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,8 +109,8 @@
 		743B9DE0208E3B4700AC9A64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */,
-				74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */,
+				74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */,
+				74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */,
 				74D4B23B22BBFB6800CFDD02 /* thumbnail.png */,
 				74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */,
 			);
@@ -164,7 +164,7 @@
 			);
 			name = FlyingLogo;
 			productName = FlyingLogo;
-			productReference = 740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */;
+			productReference = 740C7ABD208CC4CE00B270E0 /* Avast.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -216,8 +216,8 @@
 			files = (
 				740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */,
 				740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */,
-				74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */,
-				74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */,
+				74D4B24222BBFC5200CFDD02 /* AvastLogo.png in Resources */,
+				74D4B24322BBFC5400CFDD02 /* AvastLogoFull.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,8 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */,
-				74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */,
-				74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */,
+				74D4B23E22BBFB6800CFDD02 /* AvastLogoFull.png in Resources */,
+				74D4B24122BBFB6800CFDD02 /* AvastLogo.png in Resources */,
 				74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +436,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Avast;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -451,7 +451,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Avast;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
