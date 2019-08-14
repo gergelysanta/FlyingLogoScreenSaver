@@ -7,8 +7,7 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
-#import "LogoLayer.h"
 
-@interface FlyingLogoView : ScreenSaverView <LogoLayerDelegate>
+@interface FlyingLogoView : ScreenSaverView
 
 @end

@@ -10,6 +10,10 @@
 		740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AA720890ACB00B270E0 /* AppDelegate.swift */; };
 		740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AA920890ACC00B270E0 /* Assets.xcassets */; };
 		740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AAB20890ACC00B270E0 /* MainMenu.xib */; };
+		743051F62303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */; };
+		743051F72303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */; };
+		743051F92303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */; };
+		743051FA2303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */; };
 		743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
 		743B9DB6208D9DE900AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
 		743B9DBA208D9E8000AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
@@ -30,6 +34,8 @@
 		740C7AAE20890ACC00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740C7AAF20890ACC00B270E0 /* FlyingLogoTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingLogoTestApp.entitlements; sourceTree = "<group>"; };
 		740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingLogo.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverScene.swift; sourceTree = "<group>"; };
+		743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceFlyScene.swift; sourceTree = "<group>"; };
 		743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoLayer.swift; sourceTree = "<group>"; };
 		743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingLogoView.swift; sourceTree = "<group>"; };
 		743B9DB2208D9DE900AC9A64 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,11 +93,21 @@
 			path = FlyingLogoTestApp;
 			sourceTree = "<group>";
 		};
+		743051F42303E6B8009DE0F6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */,
+				743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		743B9DAD208D9DE900AC9A64 /* FlyingLogo */ = {
 			isa = PBXGroup;
 			children = (
-				743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */,
 				743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */,
+				743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */,
+				743051F42303E6B8009DE0F6 /* Scenes */,
 				743B9DB2208D9DE900AC9A64 /* Info.plist */,
 				743B9DD2208E309E00AC9A64 /* Resources */,
 			);
@@ -229,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743051F72303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */,
 				740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */,
 				743B9DBA208D9E8000AC9A64 /* FlyingLogoView.swift in Sources */,
 				743B9DBB208D9E8A00AC9A64 /* LogoLayer.swift in Sources */,
+				743051FA2303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */,
+				743051F62303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */,
 				743B9DB6208D9DE900AC9A64 /* FlyingLogoView.swift in Sources */,
+				743051F92303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

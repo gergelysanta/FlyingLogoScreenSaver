@@ -16,6 +16,12 @@
 		740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */; };
+		743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */; };
+		743051EA2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */; };
+		743051EB2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */; };
+		743051EE2303DF78009DE0F6 /* ScreenSaverScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */; };
+		743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */; };
+		743051F32303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */; };
 		74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
 		74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23B22BBFB6800CFDD02 /* thumbnail.png */; };
 		74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */; };
@@ -38,6 +44,10 @@
 		740C7AC9208CC54A00B270E0 /* LogoLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoLayer.h; sourceTree = "<group>"; };
 		740C7ACA208CC54A00B270E0 /* LogoLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoLayer.m; sourceTree = "<group>"; };
 		740C7AD0208D17DC00B270E0 /* ObjcBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcBridgingHeader.h; sourceTree = "<group>"; };
+		743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceFlyScene.h; sourceTree = "<group>"; };
+		743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceFlyScene.m; sourceTree = "<group>"; };
+		743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenSaverScene.h; sourceTree = "<group>"; };
+		743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverScene.m; sourceTree = "<group>"; };
 		74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogoFull.png; sourceTree = "<group>"; };
 		74D4B23B22BBFB6800CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
@@ -100,10 +110,22 @@
 				740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */,
 				740C7AC9208CC54A00B270E0 /* LogoLayer.h */,
 				740C7ACA208CC54A00B270E0 /* LogoLayer.m */,
+				743051E62303DB3D009DE0F6 /* Scenes */,
 				740C7AC3208CC4CE00B270E0 /* Info.plist */,
 				743B9DE0208E3B4700AC9A64 /* Resources */,
 			);
 			path = FlyingLogo;
+			sourceTree = "<group>";
+		};
+		743051E62303DB3D009DE0F6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */,
+				743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */,
+				743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */,
+				743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		743B9DE0208E3B4700AC9A64 /* Resources */ = {
@@ -124,8 +146,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743051EE2303DF78009DE0F6 /* ScreenSaverScene.h in Headers */,
 				740C7AC0208CC4CE00B270E0 /* FlyingLogoView.h in Headers */,
 				740C7ACB208CC54A00B270E0 /* LogoLayer.h in Headers */,
+				743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743051F32303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */,
 				740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */,
 				740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */,
+				743051EB2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */,
+				743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7AC2208CC4CE00B270E0 /* FlyingLogoView.m in Sources */,
+				743051EA2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
