@@ -59,18 +59,6 @@ class SpaceFlyScene: ScreenSaverScene {
 		super.init(coder: coder)
 	}
 
-	private func loadImage(withName imageName: String) -> NSImage? {
-		if let path = Bundle(for: self.classForCoder).path(forResource: imageName, ofType: "png") {
-			// File exists and found -> load it's contents to NSData
-			if let data = try? Data(contentsOf: URL(fileURLWithPath: path)),
-				let image = NSImage(data: data)
-			{
-				return image
-			}
-		}
-		return nil
-	}
-
 	/////////////////////////////////////////////////////////////////////////
 	// MARK: - ScreenSaverView overrided methods
 
@@ -194,7 +182,7 @@ class SpaceFlyScene: ScreenSaverScene {
 		let endPosition = CGPoint(x: screenCenterPosition.x + (startPosition.x - screenCenterPosition.x)/spreadFactor,
 								  y: screenCenterPosition.y + (startPosition.y - screenCenterPosition.y)/spreadFactor)
 
-		// Create new logo with this colour
+		// Create new logo
 		let newLogo = LogoLayer(withImage: logoImage)
 		newLogo.position = startPosition
 

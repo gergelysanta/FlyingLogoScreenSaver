@@ -25,6 +25,18 @@ class ScreenSaverScene: CALayer {
 		super.init(coder: aDecoder)
 	}
 
+	func loadImage(withName imageName: String) -> NSImage? {
+		if let path = Bundle(for: self.classForCoder).path(forResource: imageName, ofType: "png") {
+			// File exists and found -> load it's contents to NSData
+			if let data = try? Data(contentsOf: URL(fileURLWithPath: path)),
+				let image = NSImage(data: data)
+			{
+				return image
+			}
+		}
+		return nil
+	}
+
 	func start() {
 		// Override this method
 	}
