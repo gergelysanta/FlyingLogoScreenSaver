@@ -17,6 +17,8 @@
 	NSMutableArray *logoArray;
 	NSUInteger maximumNumberOfLogos;
 
+	LogoLayer *mainLogo;
+
 	NSTimer *logoGeneratingTimer;
 	NSTimer *mainLogoGeneratingTimer;
 
@@ -33,6 +35,8 @@
 
 		maximumNumberOfLogos = 20;
 		logoArray = [NSMutableArray arrayWithCapacity:maximumNumberOfLogos];
+
+		mainLogo = nil;
 
 		logoMinimumHeight = 0;
 		logoMaximumHeight = 0;
@@ -58,16 +62,16 @@
 
 - (NSTimeInterval) randomTimeInterval
 {
-	// Return random time between 2s and 4s
-	NSTimeInterval interval = arc4random_uniform(200) + 200;
-	return interval / 100;
+	// Return random time between 0.6s and 1.5s
+	NSTimeInterval interval = arc4random_uniform(600) + 900;
+	return interval / 1000;
 }
 
 - (NSTimeInterval) randomMainLogoTimeInterval
 {
-	// Return random time etween 15s and 30s
-	NSTimeInterval interval = arc4random_uniform(1500) + 1500;
-	return interval / 100;
+	// Return random time etween 6s and 10s
+	NSTimeInterval interval = arc4random_uniform(6000) + 4000;
+	return interval / 1000;
 }
 
 - (CGFloat) randomHeight
@@ -138,27 +142,19 @@
 
 - (void) generateMainLogo
 {
+	// Remove old main logo if still exists
+	[mainLogo removeFromSuperlayer];
+
 	// Create new logo
-	LogoLayer *logo = [self generateFlowingLogoWithImage:logoImage
-												  height:mainLogoHeight
-									   animationDuration:10.0];
-	if (!logo) {
+	mainLogo = [self generateFlowingLogoWithImage:logoImage
+										   height:mainLogoHeight
+								animationDuration:15.0];
+	if (!mainLogo) {
 		NSLog(@"ERROR: Couldn't generate full logo");
 		return;
 	}
 
-	logo.zPosition = 10.0;
-	[logoArray addObject:logo];
-#if DEBUG
-	NSLog(@"DEBUG: %lu logos", (unsigned long)logoArray.count);
-#endif
-
-	// Tick timer
-	mainLogoGeneratingTimer = [NSTimer scheduledTimerWithTimeInterval:[self randomMainLogoTimeInterval]
-															   target:self
-															 selector:@selector(generateMainLogo)
-															 userInfo:nil
-															  repeats:NO];
+	mainLogo.zPosition = 10.0;
 }
 
 - (LogoLayer*) generateFlowingLogoWithImage:(NSImage*)logoImage height:(CGFloat)height
@@ -230,6 +226,15 @@
 {
 	[logoArray removeObject:logo];
 	[logo removeFromSuperlayer];
+
+	if (logo == mainLogo) {
+		// Set timer for starting new main logo
+		mainLogoGeneratingTimer = [NSTimer scheduledTimerWithTimeInterval:[self randomMainLogoTimeInterval]
+																   target:self
+																 selector:@selector(generateMainLogo)
+																 userInfo:nil
+																  repeats:NO];
+	}
 }
 
 @end

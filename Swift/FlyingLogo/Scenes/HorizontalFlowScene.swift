@@ -17,6 +17,8 @@ class HorizontalFlowScene: ScreenSaverScene {
 	private var logoArray = [LogoLayer]()
 	private let maximumNumberOfLogos = 20
 
+	private var mainLogo:LogoLayer?
+
 	private var logoGeneratingTimer:Timer?
 	private var mainLogoGeneratingTimer:Timer?
 
@@ -26,13 +28,13 @@ class HorizontalFlowScene: ScreenSaverScene {
 
 	var randomTimeInterval:TimeInterval {
 		get {
-			return TimeInterval(arc4random_uniform(200) + 200) / 100			// Between 2s and 4s
+			return TimeInterval(arc4random_uniform(600) + 900) / 1000			// Between 0.6s and 1.5s
 		}
 	}
 
 	var randomMainLogoTimeInterval:TimeInterval {
 		get {
-			return TimeInterval(arc4random_uniform(1500) + 1500) / 100			// Between 15s and 30s
+			return TimeInterval(arc4random_uniform(6000) + 4000) / 1000			// Between 6s and 10s
 		}
 	}
 
@@ -128,20 +130,12 @@ class HorizontalFlowScene: ScreenSaverScene {
 	@objc func generateMainLogo() {
 		guard let image = logoImage else { return }
 
-		// Create new logo
-		let logo = generateFlowingLogo(withImage: image, height: mainLogoHeight, animationDuration: 10.0)
-		logo.zPosition = 10.0
-		logoArray.append(logo)
-		#if DEBUG
-		print("DEBUG: \(logoArray.count) logos")
-		#endif
+		// Remove old main logo if still exists
+		mainLogo?.removeFromSuperlayer()
 
-		// Tick timer
-		mainLogoGeneratingTimer = Timer.scheduledTimer(timeInterval: randomMainLogoTimeInterval,
-													   target: self,
-													   selector: #selector(generateMainLogo),
-													   userInfo: nil,
-													   repeats: false)
+		// Create new logo
+		mainLogo = generateFlowingLogo(withImage: image, height: mainLogoHeight, animationDuration: 15.0)
+		mainLogo?.zPosition = 10.0
 	}
 
 	func generateFlowingLogo(withImage logoImage:NSImage, height: CGFloat, animationDuration: CGFloat? = nil) -> LogoLayer {
@@ -206,6 +200,17 @@ extension HorizontalFlowScene: LogoLayerDelegate {
 			logoArray.remove(at: logoIndex)
 		}
 		logo.removeFromSuperlayer()
+
+		if let mainLogo = mainLogo,
+			logo == mainLogo
+		{
+			// Set timer for starting new main logo
+			mainLogoGeneratingTimer = Timer.scheduledTimer(timeInterval: randomMainLogoTimeInterval,
+														   target: self,
+														   selector: #selector(generateMainLogo),
+														   userInfo: nil,
+														   repeats: false)
+		}
 	}
 
 }
