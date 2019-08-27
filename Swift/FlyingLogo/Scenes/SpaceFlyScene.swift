@@ -143,12 +143,13 @@ class SpaceFlyScene: ScreenSaverScene {
 			print("DEBUG: \(logoArray.count) logos")
 			#endif
 		}
+
 		// Tick timer
-		Timer.scheduledTimer(timeInterval: randomTimeInterval,
-							 target: self,
-							 selector: #selector(randomizeNewLogo),
-							 userInfo: nil,
-							 repeats: false)
+		logoGeneratingTimer = Timer.scheduledTimer(timeInterval: randomTimeInterval,
+												   target: self,
+												   selector: #selector(randomizeNewLogo),
+												   userInfo: nil,
+												   repeats: false)
 	}
 
 	@objc func generateFullLogo() {
@@ -169,11 +170,11 @@ class SpaceFlyScene: ScreenSaverScene {
 		#endif
 
 		// Tick timer
-		Timer.scheduledTimer(timeInterval: randomFullLogoTimeInterval,
-							 target: self,
-							 selector: #selector(generateFullLogo),
-							 userInfo: nil,
-							 repeats: false)
+		logoFullGeneratingTimer = Timer.scheduledTimer(timeInterval: randomFullLogoTimeInterval,
+													   target: self,
+													   selector: #selector(generateFullLogo),
+													   userInfo: nil,
+													   repeats: false)
 	}
 
 	func generateNewLogo(withImage logoImage:NSImage, atPosition startPosition: CGPoint, scaleTo: CGFloat = 1.0) -> LogoLayer {

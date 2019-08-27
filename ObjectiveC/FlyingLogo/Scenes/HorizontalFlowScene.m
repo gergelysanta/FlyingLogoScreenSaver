@@ -127,12 +127,13 @@
 		NSLog(@"DEBUG: %lu logos", (unsigned long)logoArray.count);
 #endif
 	}
+
 	// Tick timer
-	[NSTimer scheduledTimerWithTimeInterval:[self randomTimeInterval]
-									 target:self
-								   selector:@selector(randomizeNewLogo)
-								   userInfo:nil
-									repeats:NO];
+	logoGeneratingTimer = [NSTimer scheduledTimerWithTimeInterval:[self randomTimeInterval]
+														   target:self
+														 selector:@selector(randomizeNewLogo)
+														 userInfo:nil
+														  repeats:NO];
 }
 
 - (void) generateMainLogo
@@ -153,11 +154,11 @@
 #endif
 
 	// Tick timer
-	[NSTimer scheduledTimerWithTimeInterval:[self randomMainLogoTimeInterval]
-									 target:self
-								   selector:@selector(generateMainLogo)
-								   userInfo:nil
-									repeats:NO];
+	mainLogoGeneratingTimer = [NSTimer scheduledTimerWithTimeInterval:[self randomMainLogoTimeInterval]
+															   target:self
+															 selector:@selector(generateMainLogo)
+															 userInfo:nil
+															  repeats:NO];
 }
 
 - (LogoLayer*) generateFlowingLogoWithImage:(NSImage*)logoImage height:(CGFloat)height

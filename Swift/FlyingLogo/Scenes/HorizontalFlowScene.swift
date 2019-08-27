@@ -116,12 +116,13 @@ class HorizontalFlowScene: ScreenSaverScene {
 			print("DEBUG: \(logoArray.count) logos")
 			#endif
 		}
+
 		// Tick timer
-		Timer.scheduledTimer(timeInterval: randomTimeInterval,
-							 target: self,
-							 selector: #selector(randomizeNewLogo),
-							 userInfo: nil,
-							 repeats: false)
+		logoGeneratingTimer = Timer.scheduledTimer(timeInterval: randomTimeInterval,
+												   target: self,
+												   selector: #selector(randomizeNewLogo),
+												   userInfo: nil,
+												   repeats: false)
 	}
 
 	@objc func generateMainLogo() {
@@ -136,11 +137,11 @@ class HorizontalFlowScene: ScreenSaverScene {
 		#endif
 
 		// Tick timer
-		Timer.scheduledTimer(timeInterval: randomMainLogoTimeInterval,
-							 target: self,
-							 selector: #selector(generateMainLogo),
-							 userInfo: nil,
-							 repeats: false)
+		mainLogoGeneratingTimer = Timer.scheduledTimer(timeInterval: randomMainLogoTimeInterval,
+													   target: self,
+													   selector: #selector(generateMainLogo),
+													   userInfo: nil,
+													   repeats: false)
 	}
 
 	func generateFlowingLogo(withImage logoImage:NSImage, height: CGFloat, animationDuration: CGFloat? = nil) -> LogoLayer {
