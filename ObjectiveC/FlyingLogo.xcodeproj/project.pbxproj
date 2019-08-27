@@ -16,6 +16,9 @@
 		740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */; };
+		742AE68923150000003D618C /* HorizontalFlowScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 742AE68723150000003D618C /* HorizontalFlowScene.h */; };
+		742AE68A23150000003D618C /* HorizontalFlowScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AE68823150000003D618C /* HorizontalFlowScene.m */; };
+		742AE68B23150000003D618C /* HorizontalFlowScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AE68823150000003D618C /* HorizontalFlowScene.m */; };
 		743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */; };
 		743051EA2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */; };
 		743051EB2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */; };
@@ -44,6 +47,8 @@
 		740C7AC9208CC54A00B270E0 /* LogoLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoLayer.h; sourceTree = "<group>"; };
 		740C7ACA208CC54A00B270E0 /* LogoLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoLayer.m; sourceTree = "<group>"; };
 		740C7AD0208D17DC00B270E0 /* ObjcBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcBridgingHeader.h; sourceTree = "<group>"; };
+		742AE68723150000003D618C /* HorizontalFlowScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalFlowScene.h; sourceTree = "<group>"; };
+		742AE68823150000003D618C /* HorizontalFlowScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalFlowScene.m; sourceTree = "<group>"; };
 		743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceFlyScene.h; sourceTree = "<group>"; };
 		743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceFlyScene.m; sourceTree = "<group>"; };
 		743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenSaverScene.h; sourceTree = "<group>"; };
@@ -122,6 +127,8 @@
 			children = (
 				743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */,
 				743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */,
+				742AE68723150000003D618C /* HorizontalFlowScene.h */,
+				742AE68823150000003D618C /* HorizontalFlowScene.m */,
 				743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */,
 				743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */,
 			);
@@ -150,6 +157,7 @@
 				740C7AC0208CC4CE00B270E0 /* FlyingLogoView.h in Headers */,
 				740C7ACB208CC54A00B270E0 /* LogoLayer.h in Headers */,
 				743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */,
+				742AE68923150000003D618C /* HorizontalFlowScene.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +273,7 @@
 			files = (
 				743051F32303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */,
+				742AE68B23150000003D618C /* HorizontalFlowScene.m in Sources */,
 				740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */,
 				740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */,
 				743051EB2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */,
@@ -279,6 +288,7 @@
 				743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7AC2208CC4CE00B270E0 /* FlyingLogoView.m in Sources */,
 				743051EA2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */,
+				742AE68A23150000003D618C /* HorizontalFlowScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

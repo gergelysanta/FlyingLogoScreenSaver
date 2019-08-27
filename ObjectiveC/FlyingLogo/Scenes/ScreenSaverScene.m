@@ -34,4 +34,17 @@
 	// Override this method
 }
 
+- (NSImage*) loadImageWithName:(NSString*)imageName
+{
+	NSString *path = [[NSBundle bundleForClass:self.class] pathForResource:imageName ofType:@"png"];
+	if (path) {
+		// File exists and found -> load it's contents to NSData
+		NSData *imageData = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath:path]];
+		if (imageData) {
+			return [[NSImage alloc] initWithData:imageData];
+		}
+	}
+	return nil;
+}
+
 @end

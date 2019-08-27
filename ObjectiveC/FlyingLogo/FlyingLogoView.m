@@ -8,6 +8,7 @@
 
 #import "FlyingLogoView.h"
 #import "SpaceFlyScene.h"
+#import "HorizontalFlowScene.h"
 
 @implementation FlyingLogoView
 {

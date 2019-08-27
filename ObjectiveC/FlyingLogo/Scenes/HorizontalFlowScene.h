@@ -1,8 +1,8 @@
 //
-//  SpaceFlyScene.h
+//  HorizontalFlowScene.h
 //  FlyingLogo
 //
-//  Created by Gergely Sánta on 14/08/2019.
+//  Created by Gergely Sánta on 27/08/2019.
 //  Copyright © 2019 TriKatz. All rights reserved.
 //
 
@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SpaceFlyScene: ScreenSaverScene <LogoLayerDelegate>
+@interface HorizontalFlowScene: ScreenSaverScene <LogoLayerDelegate>
 
 @end
 

@@ -6,6 +6,7 @@
 //  Copyright © 2019 TriKatz. All rights reserved.
 //
 
+#import <AppKit/AppKit.h>
 #import <QuartzCore/QuartzCore.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -18,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) start;
 - (void) stop;
+
+- (NSImage*) loadImageWithName:(NSString*)imageName;
 
 @end
 

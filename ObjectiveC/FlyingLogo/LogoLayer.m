@@ -10,16 +10,12 @@
 #import "LogoLayer.h"
 
 @implementation LogoLayer
-{
-	CGFloat animationDuration;
-	CGFloat fadeDuration;
-}
 
 - (instancetype) init
 {
 	if (self = [super init]) {
-		animationDuration = 5.0;
-		fadeDuration = 1.0;
+		_animationDuration = 5.0;
+		_fadeDuration = 1.0;
 	}
 	return self;
 }
@@ -55,7 +51,7 @@
 	// so we can forcewrap the optional in this method
 	self.scaleAnimation.fromValue = [NSNumber numberWithDouble:fromScale];
 	self.scaleAnimation.toValue = [NSNumber numberWithDouble:toScale];
-	self.scaleAnimation.duration = animationDuration;
+	self.scaleAnimation.duration = self.animationDuration;
 
 	// Set timing to animate slower at the beginning and faster at the end
 	self.scaleAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
@@ -76,7 +72,7 @@
 	// so we can forcewrap the optional in this method
 	self.zposAnimation.fromValue = [NSNumber numberWithDouble:fromScale];
 	self.zposAnimation.toValue = [NSNumber numberWithDouble:toScale];
-	self.zposAnimation.duration = animationDuration;
+	self.zposAnimation.duration = self.animationDuration;
 
 	// Set timing to animate slower at the beginning and faster at the end
 	self.zposAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
@@ -93,16 +89,21 @@
 
 - (void) setMovementAnimationFromPosition:(CGPoint)fromPosition toPosition:(CGPoint)toPosition
 {
+	return [self setMovementAnimationFromPosition:fromPosition toPosition:toPosition timing:kCAMediaTimingFunctionEaseIn];
+}
+
+- (void) setMovementAnimationFromPosition:(CGPoint)fromPosition toPosition:(CGPoint)toPosition timing:(CAMediaTimingFunctionName)timingFunctionName
+{
 	_moveAnimation = [CABasicAnimation animationWithKeyPath:@"position"];
 
 	// We just created the animation, it exists for sure
 	// so we can forcewrap the optional in this method
 	self.moveAnimation.fromValue = [NSValue valueWithPoint:fromPosition];
 	self.moveAnimation.toValue = [NSValue valueWithPoint:toPosition];
-	self.moveAnimation.duration = animationDuration;
+	self.moveAnimation.duration = self.animationDuration;
 
 	// Set timing to animate slower at the beginning and faster at the end
-	self.moveAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+	self.moveAnimation.timingFunction = [CAMediaTimingFunction functionWithName:timingFunctionName];
 
 	// Don't do reverse animation
 	self.moveAnimation.autoreverses = NO;
@@ -130,7 +131,7 @@
 		[self addAnimation:self.scaleAnimation forKey:@"ScaleAnimation"];
 		
 		// Start to fade out before animation ends
-		[NSTimer scheduledTimerWithTimeInterval:animationDuration - fadeDuration
+		[NSTimer scheduledTimerWithTimeInterval:self.animationDuration - self.fadeDuration
 										 target:self
 									   selector:@selector(fadeOut)
 									   userInfo:nil
@@ -143,7 +144,7 @@
 	CABasicAnimation *fadeAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
 
 	fadeAnimation.toValue = [NSNumber numberWithDouble:0.0];
-	fadeAnimation.duration = fadeDuration;
+	fadeAnimation.duration = self.fadeDuration;
 
 	// Don't do reverse animation
 	fadeAnimation.autoreverses = NO;

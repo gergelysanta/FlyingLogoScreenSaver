@@ -36,8 +36,8 @@
 {
 	if (self = [super initWithAnimationTimeInterval:1/30.0])
 	{
-		logoArray = [NSMutableArray arrayWithCapacity:maximumNumberOfLogos];
 		maximumNumberOfLogos = 70;
+		logoArray = [NSMutableArray arrayWithCapacity:maximumNumberOfLogos];
 
 		spreadFactor = 0.15;
 
@@ -52,19 +52,6 @@
 		logoImageFull = [self loadImageWithName:@"SimpleLogoFull"];
 	}
 	return self;
-}
-
-- (NSImage*) loadImageWithName:(NSString*)imageName
-{
-	NSString *path = [[NSBundle bundleForClass:self.class] pathForResource:imageName ofType:@"png"];
-	if (path) {
-		// File exists and found -> load it's contents to NSData
-		NSData *imageData = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath:path]];
-		if (imageData) {
-			return [[NSImage alloc] initWithData:imageData];
-		}
-	}
-	return nil;
 }
 
 - (void) setFrame:(CGRect)frame
@@ -209,7 +196,7 @@
 	CGPoint endPosition = CGPointMake(screenCenterPosition.x + (startPosition.x - screenCenterPosition.x)/spreadFactor,
 									  screenCenterPosition.y + (startPosition.y - screenCenterPosition.y)/spreadFactor);
 
-	// Create new logo with this colour
+	// Create new logo
 	LogoLayer *newLogo = [[LogoLayer alloc] initWithImage:logoImage];
 	newLogo.position = startPosition;
 
