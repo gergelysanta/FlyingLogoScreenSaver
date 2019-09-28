@@ -16,12 +16,29 @@
 		740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7ACA208CC54A00B270E0 /* LogoLayer.m */; };
 		740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */; };
-		74D4B23E22BBFB6800CFDD02 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */; };
+		742AE68923150000003D618C /* HorizontalFlowScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 742AE68723150000003D618C /* HorizontalFlowScene.h */; };
+		742AE68A23150000003D618C /* HorizontalFlowScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AE68823150000003D618C /* HorizontalFlowScene.m */; };
+		742AE68B23150000003D618C /* HorizontalFlowScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AE68823150000003D618C /* HorizontalFlowScene.m */; };
+		743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */; };
+		743051EA2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */; };
+		743051EB2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */; };
+		743051EE2303DF78009DE0F6 /* ScreenSaverScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */; };
+		743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */; };
+		743051F32303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */; };
+		74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
 		74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23B22BBFB6800CFDD02 /* thumbnail.png */; };
 		74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */; };
-		74D4B24122BBFB6800CFDD02 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */; };
-		74D4B24222BBFC5200CFDD02 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */; };
-		74D4B24322BBFC5400CFDD02 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */; };
+		74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
+		74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
+		74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
+		EC48D796233D25EC0071F3C8 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = EC48D794233D25EC0071F3C8 /* Configuration.h */; };
+		EC48D797233D25EC0071F3C8 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48D795233D25EC0071F3C8 /* Configuration.m */; };
+		EC48D7F5233F557B0071F3C8 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48D795233D25EC0071F3C8 /* Configuration.m */; };
+		EC48D7F6233F55800071F3C8 /* ConfigureSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */; };
+		EC48D7F7233F55980071F3C8 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */; };
+		ECBE112D233BEF5200C52E41 /* ConfigureSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */; };
+		ECBE112E233BEF5200C52E41 /* ConfigureSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */; };
+		ECBE112F233BEF5200C52E41 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,17 +48,28 @@
 		740C7AAC20890ACC00B270E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		740C7AAE20890ACC00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740C7AAF20890ACC00B270E0 /* FlyingLogoTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingLogoTestApp.entitlements; sourceTree = "<group>"; };
-		740C7ABD208CC4CE00B270E0 /* Avast.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avast.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingLogo.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		740C7ABF208CC4CE00B270E0 /* FlyingLogoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyingLogoView.h; sourceTree = "<group>"; };
 		740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingLogoView.m; sourceTree = "<group>"; };
 		740C7AC3208CC4CE00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740C7AC9208CC54A00B270E0 /* LogoLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogoLayer.h; sourceTree = "<group>"; };
 		740C7ACA208CC54A00B270E0 /* LogoLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogoLayer.m; sourceTree = "<group>"; };
 		740C7AD0208D17DC00B270E0 /* ObjcBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcBridgingHeader.h; sourceTree = "<group>"; };
-		74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogoFull.png; sourceTree = "<group>"; };
+		742AE68723150000003D618C /* HorizontalFlowScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalFlowScene.h; sourceTree = "<group>"; };
+		742AE68823150000003D618C /* HorizontalFlowScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalFlowScene.m; sourceTree = "<group>"; };
+		743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpaceFlyScene.h; sourceTree = "<group>"; };
+		743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceFlyScene.m; sourceTree = "<group>"; };
+		743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenSaverScene.h; sourceTree = "<group>"; };
+		743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverScene.m; sourceTree = "<group>"; };
+		74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogoFull.png; sourceTree = "<group>"; };
 		74D4B23B22BBFB6800CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
-		74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogo.png; sourceTree = "<group>"; };
+		74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogo.png; sourceTree = "<group>"; };
+		EC48D794233D25EC0071F3C8 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		EC48D795233D25EC0071F3C8 /* Configuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigureSheetController.h; sourceTree = "<group>"; };
+		ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigureSheetController.m; sourceTree = "<group>"; };
+		ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				740C7AA520890ACB00B270E0 /* FlyingLogoTestApp.app */,
-				740C7ABD208CC4CE00B270E0 /* Avast.saver */,
+				740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,21 +128,48 @@
 				740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */,
 				740C7AC9208CC54A00B270E0 /* LogoLayer.h */,
 				740C7ACA208CC54A00B270E0 /* LogoLayer.m */,
+				EC48D794233D25EC0071F3C8 /* Configuration.h */,
+				EC48D795233D25EC0071F3C8 /* Configuration.m */,
+				743051E62303DB3D009DE0F6 /* Scenes */,
+				ECBE1123233BEA4400C52E41 /* ConfigureSheet */,
 				740C7AC3208CC4CE00B270E0 /* Info.plist */,
 				743B9DE0208E3B4700AC9A64 /* Resources */,
 			);
 			path = FlyingLogo;
 			sourceTree = "<group>";
 		};
+		743051E62303DB3D009DE0F6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				743051E72303DBA5009DE0F6 /* SpaceFlyScene.h */,
+				743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */,
+				742AE68723150000003D618C /* HorizontalFlowScene.h */,
+				742AE68823150000003D618C /* HorizontalFlowScene.m */,
+				743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */,
+				743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		743B9DE0208E3B4700AC9A64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				74D4B23D22BBFB6800CFDD02 /* AvastLogo.png */,
-				74D4B23A22BBFB6800CFDD02 /* AvastLogoFull.png */,
+				74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */,
+				74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */,
 				74D4B23B22BBFB6800CFDD02 /* thumbnail.png */,
 				74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ECBE1123233BEA4400C52E41 /* ConfigureSheet */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */,
+				ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */,
+				ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */,
+			);
+			path = ConfigureSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +179,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743051EE2303DF78009DE0F6 /* ScreenSaverScene.h in Headers */,
 				740C7AC0208CC4CE00B270E0 /* FlyingLogoView.h in Headers */,
 				740C7ACB208CC54A00B270E0 /* LogoLayer.h in Headers */,
+				743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */,
+				EC48D796233D25EC0071F3C8 /* Configuration.h in Headers */,
+				742AE68923150000003D618C /* HorizontalFlowScene.h in Headers */,
+				ECBE112D233BEF5200C52E41 /* ConfigureSheetController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +224,7 @@
 			);
 			name = FlyingLogo;
 			productName = FlyingLogo;
-			productReference = 740C7ABD208CC4CE00B270E0 /* Avast.saver */;
+			productReference = 740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +234,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = TriKatz;
 				TargetAttributes = {
 					740C7AA420890ACB00B270E0 = {
@@ -216,8 +276,9 @@
 			files = (
 				740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */,
 				740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */,
-				74D4B24222BBFC5200CFDD02 /* AvastLogo.png in Resources */,
-				74D4B24322BBFC5400CFDD02 /* AvastLogoFull.png in Resources */,
+				74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */,
+				74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */,
+				EC48D7F7233F55980071F3C8 /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBE112F233BEF5200C52E41 /* ConfigureSheet.xib in Resources */,
 				74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */,
-				74D4B23E22BBFB6800CFDD02 /* AvastLogoFull.png in Resources */,
-				74D4B24122BBFB6800CFDD02 /* AvastLogo.png in Resources */,
+				74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */,
+				74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */,
 				74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,9 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D7F5233F557B0071F3C8 /* Configuration.m in Sources */,
+				743051F32303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7ACE208D08A100B270E0 /* FlyingLogoView.m in Sources */,
+				742AE68B23150000003D618C /* HorizontalFlowScene.m in Sources */,
+				EC48D7F6233F55800071F3C8 /* ConfigureSheetController.m in Sources */,
 				740C7ACD208D089800B270E0 /* LogoLayer.m in Sources */,
 				740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */,
+				743051EB2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D797233D25EC0071F3C8 /* Configuration.m in Sources */,
+				ECBE112E233BEF5200C52E41 /* ConfigureSheetController.m in Sources */,
 				740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */,
+				743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7AC2208CC4CE00B270E0 /* FlyingLogoView.m in Sources */,
+				743051EA2303DBA5009DE0F6 /* SpaceFlyScene.m in Sources */,
+				742AE68A23150000003D618C /* HorizontalFlowScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +459,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FlyingLogoTestApp/FlyingLogoTestApp.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FlyingLogoTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -398,6 +471,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OBJC_BRIDGING_HEADER = FlyingLogoTestApp/ObjcBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -409,9 +483,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FlyingLogoTestApp/FlyingLogoTestApp.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FlyingLogoTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,6 +495,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = FlyingLogoTestApp/ObjcBridgingHeader.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -431,12 +507,12 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
 				INFOPLIST_FILE = FlyingLogo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogo;
-				PRODUCT_NAME = Avast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -446,12 +522,12 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
 				INFOPLIST_FILE = FlyingLogo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogo;
-				PRODUCT_NAME = Avast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

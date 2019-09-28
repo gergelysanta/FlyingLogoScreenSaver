@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14868" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14868"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ConfigureSheetController" customModule="FlyingLogo" customModuleProvider="target">
+            <connections>
+                <outlet property="sceneTypeSelector" destination="J7E-nD-pcI" id="LJ5-Y4-ozG"/>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Configuration" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="388" height="92"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <view key="contentView" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ID4-7c-y7r">
+                        <rect key="frame" x="14" y="60" width="38" height="16"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Type:" id="2gb-gB-8GU">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="J7E-nD-pcI">
+                        <rect key="frame" x="60" y="54" width="315" height="25"/>
+                        <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="4B2-N6-a4M" id="T8f-C2-vFu">
+                            <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" id="uqp-op-qKY">
+                                <items>
+                                    <menuItem title="Item 1" state="on" id="4B2-N6-a4M"/>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qrg-kF-awh">
+                        <rect key="frame" x="303" y="9" width="75" height="32"/>
+                        <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="uMF-UJ-lgF">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="closeButtonPressed:" target="-2" id="6Bo-VM-gWq"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="J7E-nD-pcI" secondAttribute="trailing" constant="16" id="0bX-JR-Uoe"/>
+                    <constraint firstItem="qrg-kF-awh" firstAttribute="top" secondItem="J7E-nD-pcI" secondAttribute="bottom" constant="20" id="Evx-kn-pZ8"/>
+                    <constraint firstItem="J7E-nD-pcI" firstAttribute="centerY" secondItem="ID4-7c-y7r" secondAttribute="centerY" id="GVn-1Z-xO1"/>
+                    <constraint firstItem="J7E-nD-pcI" firstAttribute="leading" secondItem="ID4-7c-y7r" secondAttribute="trailing" constant="12" id="KSf-xi-Bsr"/>
+                    <constraint firstAttribute="trailing" secondItem="qrg-kF-awh" secondAttribute="trailing" constant="16" id="Oov-Vn-kfE"/>
+                    <constraint firstItem="ID4-7c-y7r" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="16" id="PEM-7H-ip7"/>
+                    <constraint firstAttribute="bottom" secondItem="qrg-kF-awh" secondAttribute="bottom" constant="16" id="RuL-k4-1Am"/>
+                    <constraint firstItem="ID4-7c-y7r" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="16" id="T98-Rs-fNe"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="93"/>
+        </window>
+    </objects>
+</document>

@@ -10,6 +10,12 @@
 		740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740C7AA720890ACB00B270E0 /* AppDelegate.swift */; };
 		740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AA920890ACC00B270E0 /* Assets.xcassets */; };
 		740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740C7AAB20890ACC00B270E0 /* MainMenu.xib */; };
+		743051F62303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */; };
+		743051F72303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */; };
+		743051F92303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */; };
+		743051FA2303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */; };
+		743051FC230A9C7F009DE0F6 /* HorizontalFlowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051FB230A9C7F009DE0F6 /* HorizontalFlowScene.swift */; };
+		743051FD230A9C7F009DE0F6 /* HorizontalFlowScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743051FB230A9C7F009DE0F6 /* HorizontalFlowScene.swift */; };
 		743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
 		743B9DB6208D9DE900AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
 		743B9DBA208D9E8000AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
@@ -20,6 +26,12 @@
 		74D4B23122BBF27300CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B22D22BBF0D400CFDD02 /* SimpleLogoFull.png */; };
 		74D4B23822BBF9B400CFDD02 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23622BBF9B400CFDD02 /* thumbnail@2x.png */; };
 		74D4B23922BBF9B400CFDD02 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23722BBF9B400CFDD02 /* thumbnail.png */; };
+		EC48D7F4233F554D0071F3C8 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC48D7F3233F554D0071F3C8 /* ConfigureSheet.xib */; };
+		EC48D7F8233F55AB0071F3C8 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC48D7F3233F554D0071F3C8 /* ConfigureSheet.xib */; };
+		EC48D7FA233F55DB0071F3C8 /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7F9233F55DB0071F3C8 /* ConfigureSheetController.swift */; };
+		EC48D7FB233F55DB0071F3C8 /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7F9233F55DB0071F3C8 /* ConfigureSheetController.swift */; };
+		EC48D7FD233F6B950071F3C8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7FC233F6B950071F3C8 /* Configuration.swift */; };
+		EC48D7FE233F6B950071F3C8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7FC233F6B950071F3C8 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +42,9 @@
 		740C7AAE20890ACC00B270E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		740C7AAF20890ACC00B270E0 /* FlyingLogoTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlyingLogoTestApp.entitlements; sourceTree = "<group>"; };
 		740C7ABD208CC4CE00B270E0 /* FlyingLogo.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingLogo.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverScene.swift; sourceTree = "<group>"; };
+		743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceFlyScene.swift; sourceTree = "<group>"; };
+		743051FB230A9C7F009DE0F6 /* HorizontalFlowScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFlowScene.swift; sourceTree = "<group>"; };
 		743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoLayer.swift; sourceTree = "<group>"; };
 		743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingLogoView.swift; sourceTree = "<group>"; };
 		743B9DB2208D9DE900AC9A64 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +52,9 @@
 		74D4B22D22BBF0D400CFDD02 /* SimpleLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogoFull.png; sourceTree = "<group>"; };
 		74D4B23622BBF9B400CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		74D4B23722BBF9B400CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		EC48D7F3233F554D0071F3C8 /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		EC48D7F9233F55DB0071F3C8 /* ConfigureSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureSheetController.swift; sourceTree = "<group>"; };
+		EC48D7FC233F6B950071F3C8 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +105,24 @@
 			path = FlyingLogoTestApp;
 			sourceTree = "<group>";
 		};
+		743051F42303E6B8009DE0F6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				743051F82303E7D8009DE0F6 /* SpaceFlyScene.swift */,
+				743051FB230A9C7F009DE0F6 /* HorizontalFlowScene.swift */,
+				743051F52303E6D6009DE0F6 /* ScreenSaverScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		743B9DAD208D9DE900AC9A64 /* FlyingLogo */ = {
 			isa = PBXGroup;
 			children = (
-				743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */,
 				743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */,
+				743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */,
+				EC48D7FC233F6B950071F3C8 /* Configuration.swift */,
+				743051F42303E6B8009DE0F6 /* Scenes */,
+				EC48D7F2233F55140071F3C8 /* ConfigureSheet */,
 				743B9DB2208D9DE900AC9A64 /* Info.plist */,
 				743B9DD2208E309E00AC9A64 /* Resources */,
 			);
@@ -107,6 +138,15 @@
 				74D4B23622BBF9B400CFDD02 /* thumbnail@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC48D7F2233F55140071F3C8 /* ConfigureSheet */ = {
+			isa = PBXGroup;
+			children = (
+				EC48D7F3233F554D0071F3C8 /* ConfigureSheet.xib */,
+				EC48D7F9233F55DB0071F3C8 /* ConfigureSheetController.swift */,
+			);
+			path = ConfigureSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = TriKatz;
 				TargetAttributes = {
 					740C7AA420890ACB00B270E0 = {
@@ -208,6 +248,7 @@
 				740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */,
 				74D4B23022BBF27300CFDD02 /* SimpleLogo.png in Resources */,
 				74D4B23122BBF27300CFDD02 /* SimpleLogoFull.png in Resources */,
+				EC48D7F8233F55AB0071F3C8 /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +260,7 @@
 				74D4B22F22BBF0D400CFDD02 /* SimpleLogoFull.png in Resources */,
 				74D4B22E22BBF0D400CFDD02 /* SimpleLogo.png in Resources */,
 				74D4B23922BBF9B400CFDD02 /* thumbnail.png in Resources */,
+				EC48D7F4233F554D0071F3C8 /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +271,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743051FD230A9C7F009DE0F6 /* HorizontalFlowScene.swift in Sources */,
+				743051F72303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */,
 				740C7AA820890ACB00B270E0 /* AppDelegate.swift in Sources */,
+				EC48D7FB233F55DB0071F3C8 /* ConfigureSheetController.swift in Sources */,
 				743B9DBA208D9E8000AC9A64 /* FlyingLogoView.swift in Sources */,
 				743B9DBB208D9E8A00AC9A64 /* LogoLayer.swift in Sources */,
+				EC48D7FE233F6B950071F3C8 /* Configuration.swift in Sources */,
+				743051FA2303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				743B9DB5208D9DE900AC9A64 /* LogoLayer.swift in Sources */,
+				743051F62303E6D6009DE0F6 /* ScreenSaverScene.swift in Sources */,
+				EC48D7FD233F6B950071F3C8 /* Configuration.swift in Sources */,
 				743B9DB6208D9DE900AC9A64 /* FlyingLogoView.swift in Sources */,
+				743051F92303E7D8009DE0F6 /* SpaceFlyScene.swift in Sources */,
+				EC48D7FA233F55DB0071F3C8 /* ConfigureSheetController.swift in Sources */,
+				743051FC230A9C7F009DE0F6 /* HorizontalFlowScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,10 +429,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FlyingLogoTestApp/FlyingLogoTestApp.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FlyingLogoTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,6 +442,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -399,10 +453,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FlyingLogoTestApp/FlyingLogoTestApp.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FlyingLogoTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -411,6 +466,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.trikatz.FlyingLogoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -422,7 +478,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
 				INFOPLIST_FILE = FlyingLogo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -438,7 +494,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
 				INFOPLIST_FILE = FlyingLogo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;

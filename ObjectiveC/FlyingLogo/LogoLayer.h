@@ -20,6 +20,9 @@
 
 @property id<LogoLayerDelegate> logoDelegate;
 
+@property (readwrite) CGFloat animationDuration;
+@property (readwrite) CGFloat fadeDuration;
+
 @property (readonly) CABasicAnimation *scaleAnimation;
 @property (readonly) CABasicAnimation *zposAnimation;
 @property (readonly) CABasicAnimation *moveAnimation;
@@ -28,6 +31,7 @@
 
 - (void) setScaleAnimationFromScale:(CGFloat)fromScale toScale:(CGFloat)toScale;
 - (void) setMovementAnimationFromPosition:(CGPoint)fromPosition toPosition:(CGPoint)toPosition;
+- (void) setMovementAnimationFromPosition:(CGPoint)fromPosition toPosition:(CGPoint)toPosition timing:(CAMediaTimingFunctionName)timingFunctionName;
 - (void) animate;
 
 @end

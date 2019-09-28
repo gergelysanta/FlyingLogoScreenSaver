@@ -20,8 +20,8 @@ class LogoLayer: CALayer {
 	private(set) var zposAnimation: CABasicAnimation?
 	private(set) var moveAnimation: CABasicAnimation?
 
-	private let animationDuration = 5.0
-	private let fadeDuration = 1.0
+	var animationDuration:CGFloat = 5.0
+	var fadeDuration:CGFloat = 1.0
 
 	/////////////////////////////////////////////////////////////////////////
 	// MARK: - Initialization
@@ -50,7 +50,7 @@ class LogoLayer: CALayer {
 		// so we can forcewrap the optional in this method
 		scaleAnimation!.fromValue = fromScale
 		scaleAnimation!.toValue = toScale
-		scaleAnimation!.duration = animationDuration
+		scaleAnimation!.duration = CFTimeInterval(animationDuration)
 
 		// Set timing to animate slower at the beginning and faster at the end
 		scaleAnimation!.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
@@ -71,7 +71,7 @@ class LogoLayer: CALayer {
 		// so we can forcewrap the optional in this method
 		zposAnimation!.fromValue = fromScale
 		zposAnimation!.toValue = toScale
-		zposAnimation!.duration = animationDuration
+		zposAnimation!.duration = CFTimeInterval(animationDuration)
 
 		// Set timing to animate slower at the beginning and faster at the end
 		zposAnimation!.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
@@ -86,17 +86,17 @@ class LogoLayer: CALayer {
 		zposAnimation!.isRemovedOnCompletion = false
 	}
 
-	func setMovementAnimation(fromPosition: CGPoint, toPosition: CGPoint) {
+	func setMovementAnimation(fromPosition: CGPoint, toPosition: CGPoint, timing: CAMediaTimingFunctionName = .easeIn) {
 		moveAnimation = CABasicAnimation(keyPath: "position")
 
 		// We just created the animation, it exists for sure
 		// so we can forcewrap the optional in this method
 		moveAnimation!.fromValue = fromPosition
 		moveAnimation!.toValue = toPosition
-		moveAnimation!.duration = animationDuration
+		moveAnimation!.duration = CFTimeInterval(animationDuration)
 
 		// Set timing to animate slower at the beginning and faster at the end
-		moveAnimation!.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeIn)
+		moveAnimation!.timingFunction = CAMediaTimingFunction(name: timing)
 
 		// Don't do reverse animation
 		moveAnimation!.autoreverses = false
@@ -135,7 +135,7 @@ class LogoLayer: CALayer {
 		let fadeAnimation = CABasicAnimation(keyPath: "opacity")
 
 		fadeAnimation.toValue = 0.0
-		fadeAnimation.duration = fadeDuration
+		fadeAnimation.duration = CFTimeInterval(fadeDuration)
 
 		// Don't do reverse animation
 		fadeAnimation.autoreverses = false
