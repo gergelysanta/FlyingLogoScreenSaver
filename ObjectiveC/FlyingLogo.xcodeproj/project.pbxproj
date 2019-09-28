@@ -31,6 +31,11 @@
 		74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
 		74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
 		74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
+		EC48D796233D25EC0071F3C8 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = EC48D794233D25EC0071F3C8 /* Configuration.h */; };
+		EC48D797233D25EC0071F3C8 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48D795233D25EC0071F3C8 /* Configuration.m */; };
+		ECBE112D233BEF5200C52E41 /* ConfigureSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */; };
+		ECBE112E233BEF5200C52E41 /* ConfigureSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */; };
+		ECBE112F233BEF5200C52E41 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +62,11 @@
 		74D4B23B22BBFB6800CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogo.png; sourceTree = "<group>"; };
+		EC48D794233D25EC0071F3C8 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		EC48D795233D25EC0071F3C8 /* Configuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigureSheetController.h; sourceTree = "<group>"; };
+		ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigureSheetController.m; sourceTree = "<group>"; };
+		ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +125,10 @@
 				740C7AC1208CC4CE00B270E0 /* FlyingLogoView.m */,
 				740C7AC9208CC54A00B270E0 /* LogoLayer.h */,
 				740C7ACA208CC54A00B270E0 /* LogoLayer.m */,
+				EC48D794233D25EC0071F3C8 /* Configuration.h */,
+				EC48D795233D25EC0071F3C8 /* Configuration.m */,
 				743051E62303DB3D009DE0F6 /* Scenes */,
+				ECBE1123233BEA4400C52E41 /* ConfigureSheet */,
 				740C7AC3208CC4CE00B270E0 /* Info.plist */,
 				743B9DE0208E3B4700AC9A64 /* Resources */,
 			);
@@ -146,6 +159,16 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		ECBE1123233BEA4400C52E41 /* ConfigureSheet */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */,
+				ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */,
+				ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */,
+			);
+			path = ConfigureSheet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -157,7 +180,9 @@
 				740C7AC0208CC4CE00B270E0 /* FlyingLogoView.h in Headers */,
 				740C7ACB208CC54A00B270E0 /* LogoLayer.h in Headers */,
 				743051E92303DBA5009DE0F6 /* SpaceFlyScene.h in Headers */,
+				EC48D796233D25EC0071F3C8 /* Configuration.h in Headers */,
 				742AE68923150000003D618C /* HorizontalFlowScene.h in Headers */,
+				ECBE112D233BEF5200C52E41 /* ConfigureSheetController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +231,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = TriKatz;
 				TargetAttributes = {
 					740C7AA420890ACB00B270E0 = {
@@ -257,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBE112F233BEF5200C52E41 /* ConfigureSheet.xib in Resources */,
 				74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */,
 				74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */,
 				74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */,
@@ -284,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D797233D25EC0071F3C8 /* Configuration.m in Sources */,
+				ECBE112E233BEF5200C52E41 /* ConfigureSheetController.m in Sources */,
 				740C7ACC208CC54A00B270E0 /* LogoLayer.m in Sources */,
 				743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */,
 				740C7AC2208CC4CE00B270E0 /* FlyingLogoView.m in Sources */,
@@ -427,7 +455,8 @@
 				CODE_SIGN_ENTITLEMENTS = FlyingLogoTestApp/FlyingLogoTestApp.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FlyingLogoTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,7 +479,8 @@
 				CODE_SIGN_ENTITLEMENTS = FlyingLogoTestApp/FlyingLogoTestApp.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FlyingLogoTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,7 +501,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
 				INFOPLIST_FILE = FlyingLogo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -486,7 +516,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y9N34UZ32J;
+				DEVELOPMENT_TEAM = 7N5ZN4JYJX;
 				INFOPLIST_FILE = FlyingLogo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;

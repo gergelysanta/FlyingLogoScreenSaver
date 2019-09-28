@@ -7,11 +7,14 @@
 //
 
 #import "FlyingLogoView.h"
-#import "SpaceFlyScene.h"
-#import "HorizontalFlowScene.h"
+#import "Scenes/SpaceFlyScene.h"
+#import "Scenes/HorizontalFlowScene.h"
+#import "ConfigureSheet/ConfigureSheetController.h"
+#import "Configuration.h"
 
 @implementation FlyingLogoView
 {
+	ConfigureSheetController *configureSheetController;
 	ScreenSaverScene *scene;
 }
 
@@ -19,8 +22,19 @@
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
+		// Create configuration sheet controller
+		configureSheetController = [ConfigureSheetController new];
+
 		// Create main Scene displaying additional layers (floating logos)
-		scene = [SpaceFlyScene new];
+		switch (Configuration.shared.sceneType) {
+			case SceneTypeHorizontalFlow:
+				scene = [HorizontalFlowScene new];
+				break;
+
+			default:
+				scene = [SpaceFlyScene new];
+				break;
+		}
 		self.layer = scene;
 
 		// As initially ScreenSaverView didn't have any backing CALayer, it have wantsLayer turned off
@@ -60,12 +74,12 @@
 
 - (BOOL) hasConfigureSheet
 {
-    return NO;
+    return YES;
 }
 
 - (NSWindow*) configureSheet
 {
-    return nil;
+    return configureSheetController.window;
 }
 
 @end
