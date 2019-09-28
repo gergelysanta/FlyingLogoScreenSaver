@@ -25,17 +25,17 @@
 		743051EE2303DF78009DE0F6 /* ScreenSaverScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */; };
 		743051F22303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */; };
 		743051F32303E1A3009DE0F6 /* ScreenSaverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */; };
-		74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
 		74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23B22BBFB6800CFDD02 /* thumbnail.png */; };
 		74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */; };
-		74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
-		74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */; };
-		74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */; };
 		EC48D796233D25EC0071F3C8 /* Configuration.h in Headers */ = {isa = PBXBuildFile; fileRef = EC48D794233D25EC0071F3C8 /* Configuration.h */; };
 		EC48D797233D25EC0071F3C8 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48D795233D25EC0071F3C8 /* Configuration.m */; };
 		EC48D7F5233F557B0071F3C8 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48D795233D25EC0071F3C8 /* Configuration.m */; };
 		EC48D7F6233F55800071F3C8 /* ConfigureSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */; };
 		EC48D7F7233F55980071F3C8 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */; };
+		EC48D801233F760B0071F3C8 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D7FF233F760B0071F3C8 /* AvastLogo.png */; };
+		EC48D802233F760B0071F3C8 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D7FF233F760B0071F3C8 /* AvastLogo.png */; };
+		EC48D803233F760B0071F3C8 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D800233F760B0071F3C8 /* AvastLogoFull.png */; };
+		EC48D804233F760B0071F3C8 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D800233F760B0071F3C8 /* AvastLogoFull.png */; };
 		ECBE112D233BEF5200C52E41 /* ConfigureSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */; };
 		ECBE112E233BEF5200C52E41 /* ConfigureSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */; };
 		ECBE112F233BEF5200C52E41 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */; };
@@ -61,12 +61,12 @@
 		743051E82303DBA5009DE0F6 /* SpaceFlyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceFlyScene.m; sourceTree = "<group>"; };
 		743051EC2303DF78009DE0F6 /* ScreenSaverScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenSaverScene.h; sourceTree = "<group>"; };
 		743051F12303E1A3009DE0F6 /* ScreenSaverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenSaverScene.m; sourceTree = "<group>"; };
-		74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogoFull.png; sourceTree = "<group>"; };
 		74D4B23B22BBFB6800CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
-		74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogo.png; sourceTree = "<group>"; };
 		EC48D794233D25EC0071F3C8 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
 		EC48D795233D25EC0071F3C8 /* Configuration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Configuration.m; sourceTree = "<group>"; };
+		EC48D7FF233F760B0071F3C8 /* AvastLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogo.png; sourceTree = "<group>"; };
+		EC48D800233F760B0071F3C8 /* AvastLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogoFull.png; sourceTree = "<group>"; };
 		ECBE112A233BEF5200C52E41 /* ConfigureSheetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigureSheetController.h; sourceTree = "<group>"; };
 		ECBE112B233BEF5200C52E41 /* ConfigureSheetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigureSheetController.m; sourceTree = "<group>"; };
 		ECBE112C233BEF5200C52E41 /* ConfigureSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
@@ -154,8 +154,8 @@
 		743B9DE0208E3B4700AC9A64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				74D4B23D22BBFB6800CFDD02 /* SimpleLogo.png */,
-				74D4B23A22BBFB6800CFDD02 /* SimpleLogoFull.png */,
+				EC48D7FF233F760B0071F3C8 /* AvastLogo.png */,
+				EC48D800233F760B0071F3C8 /* AvastLogoFull.png */,
 				74D4B23B22BBFB6800CFDD02 /* thumbnail.png */,
 				74D4B23C22BBFB6800CFDD02 /* thumbnail@2x.png */,
 			);
@@ -274,11 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D802233F760B0071F3C8 /* AvastLogo.png in Resources */,
 				740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */,
 				740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */,
-				74D4B24222BBFC5200CFDD02 /* SimpleLogo.png in Resources */,
-				74D4B24322BBFC5400CFDD02 /* SimpleLogoFull.png in Resources */,
 				EC48D7F7233F55980071F3C8 /* ConfigureSheet.xib in Resources */,
+				EC48D804233F760B0071F3C8 /* AvastLogoFull.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D801233F760B0071F3C8 /* AvastLogo.png in Resources */,
 				ECBE112F233BEF5200C52E41 /* ConfigureSheet.xib in Resources */,
 				74D4B24022BBFB6800CFDD02 /* thumbnail@2x.png in Resources */,
-				74D4B23E22BBFB6800CFDD02 /* SimpleLogoFull.png in Resources */,
-				74D4B24122BBFB6800CFDD02 /* SimpleLogo.png in Resources */,
 				74D4B23F22BBFB6800CFDD02 /* thumbnail.png in Resources */,
+				EC48D803233F760B0071F3C8 /* AvastLogoFull.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -48,8 +48,8 @@
 		self.backgroundColor = [NSColor blackColor].CGColor;
 
 		// Load logo images from bundle
-		logoImage = [self loadImageWithName:@"SimpleLogo"];
-		logoImageFull = [self loadImageWithName:@"SimpleLogoFull"];
+		logoImage = [self loadImageWithName:@"AvastLogo"];
+		logoImageFull = [self loadImageWithName:@"AvastLogoFull"];
 	}
 	return self;
 }

@@ -20,10 +20,6 @@
 		743B9DB6208D9DE900AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
 		743B9DBA208D9E8000AC9A64 /* FlyingLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */; };
 		743B9DBB208D9E8A00AC9A64 /* LogoLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */; };
-		74D4B22E22BBF0D400CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B22C22BBF0D400CFDD02 /* SimpleLogo.png */; };
-		74D4B22F22BBF0D400CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B22D22BBF0D400CFDD02 /* SimpleLogoFull.png */; };
-		74D4B23022BBF27300CFDD02 /* SimpleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B22C22BBF0D400CFDD02 /* SimpleLogo.png */; };
-		74D4B23122BBF27300CFDD02 /* SimpleLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B22D22BBF0D400CFDD02 /* SimpleLogoFull.png */; };
 		74D4B23822BBF9B400CFDD02 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23622BBF9B400CFDD02 /* thumbnail@2x.png */; };
 		74D4B23922BBF9B400CFDD02 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 74D4B23722BBF9B400CFDD02 /* thumbnail.png */; };
 		EC48D7F4233F554D0071F3C8 /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC48D7F3233F554D0071F3C8 /* ConfigureSheet.xib */; };
@@ -32,6 +28,10 @@
 		EC48D7FB233F55DB0071F3C8 /* ConfigureSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7F9233F55DB0071F3C8 /* ConfigureSheetController.swift */; };
 		EC48D7FD233F6B950071F3C8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7FC233F6B950071F3C8 /* Configuration.swift */; };
 		EC48D7FE233F6B950071F3C8 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48D7FC233F6B950071F3C8 /* Configuration.swift */; };
+		EC48D807233F76860071F3C8 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D805233F76850071F3C8 /* AvastLogo.png */; };
+		EC48D808233F76860071F3C8 /* AvastLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D805233F76850071F3C8 /* AvastLogo.png */; };
+		EC48D809233F76860071F3C8 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D806233F76850071F3C8 /* AvastLogoFull.png */; };
+		EC48D80A233F76860071F3C8 /* AvastLogoFull.png in Resources */ = {isa = PBXBuildFile; fileRef = EC48D806233F76850071F3C8 /* AvastLogoFull.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,13 +48,13 @@
 		743B9DAF208D9DE900AC9A64 /* LogoLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoLayer.swift; sourceTree = "<group>"; };
 		743B9DB0208D9DE900AC9A64 /* FlyingLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingLogoView.swift; sourceTree = "<group>"; };
 		743B9DB2208D9DE900AC9A64 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74D4B22C22BBF0D400CFDD02 /* SimpleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogo.png; sourceTree = "<group>"; };
-		74D4B22D22BBF0D400CFDD02 /* SimpleLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SimpleLogoFull.png; sourceTree = "<group>"; };
 		74D4B23622BBF9B400CFDD02 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		74D4B23722BBF9B400CFDD02 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		EC48D7F3233F554D0071F3C8 /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
 		EC48D7F9233F55DB0071F3C8 /* ConfigureSheetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureSheetController.swift; sourceTree = "<group>"; };
 		EC48D7FC233F6B950071F3C8 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EC48D805233F76850071F3C8 /* AvastLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogo.png; sourceTree = "<group>"; };
+		EC48D806233F76850071F3C8 /* AvastLogoFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AvastLogoFull.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +132,8 @@
 		743B9DD2208E309E00AC9A64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				74D4B22C22BBF0D400CFDD02 /* SimpleLogo.png */,
-				74D4B22D22BBF0D400CFDD02 /* SimpleLogoFull.png */,
+				EC48D805233F76850071F3C8 /* AvastLogo.png */,
+				EC48D806233F76850071F3C8 /* AvastLogoFull.png */,
 				74D4B23722BBF9B400CFDD02 /* thumbnail.png */,
 				74D4B23622BBF9B400CFDD02 /* thumbnail@2x.png */,
 			);
@@ -244,10 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D808233F76860071F3C8 /* AvastLogo.png in Resources */,
 				740C7AAA20890ACC00B270E0 /* Assets.xcassets in Resources */,
 				740C7AAD20890ACC00B270E0 /* MainMenu.xib in Resources */,
-				74D4B23022BBF27300CFDD02 /* SimpleLogo.png in Resources */,
-				74D4B23122BBF27300CFDD02 /* SimpleLogoFull.png in Resources */,
+				EC48D80A233F76860071F3C8 /* AvastLogoFull.png in Resources */,
 				EC48D7F8233F55AB0071F3C8 /* ConfigureSheet.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,9 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48D807233F76860071F3C8 /* AvastLogo.png in Resources */,
 				74D4B23822BBF9B400CFDD02 /* thumbnail@2x.png in Resources */,
-				74D4B22F22BBF0D400CFDD02 /* SimpleLogoFull.png in Resources */,
-				74D4B22E22BBF0D400CFDD02 /* SimpleLogo.png in Resources */,
+				EC48D809233F76860071F3C8 /* AvastLogoFull.png in Resources */,
 				74D4B23922BBF9B400CFDD02 /* thumbnail.png in Resources */,
 				EC48D7F4233F554D0071F3C8 /* ConfigureSheet.xib in Resources */,
 			);

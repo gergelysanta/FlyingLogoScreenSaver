@@ -54,7 +54,7 @@ class HorizontalFlowScene: ScreenSaverScene {
 		self.backgroundColor = NSColor.black.cgColor
 
 		// Load logo image from bundle
-		logoImage = self.loadImage(withName: "SimpleLogoFull")
+		logoImage = self.loadImage(withName: "AvastLogoFull")
 	}
 
 	required init?(coder: NSCoder) {

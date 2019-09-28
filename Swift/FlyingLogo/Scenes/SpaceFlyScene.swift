@@ -51,8 +51,8 @@ class SpaceFlyScene: ScreenSaverScene {
 		self.backgroundColor = NSColor.black.cgColor
 
 		// Load logo images from bundle
-		logoImage = self.loadImage(withName: "SimpleLogo")
-		logoImageFull = self.loadImage(withName: "SimpleLogoFull")
+		logoImage = self.loadImage(withName: "AvastLogo")
+		logoImageFull = self.loadImage(withName: "AvastLogoFull")
 	}
 
 	required init?(coder: NSCoder) {
